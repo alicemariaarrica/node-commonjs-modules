@@ -7,4 +7,4 @@ function createHobbies(hobbyOne, hobbyTwo, hobbyThree) {
       hobbies: [hobbyOne, hobbyTwo, hobbyThree]
     };
   }
-  
+  module.exports=createHobbies;
