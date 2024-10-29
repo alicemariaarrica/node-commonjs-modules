@@ -6,3 +6,7 @@
 
 const createName=require('./names')
 const createHobbies=require('./hobbies')
+
+function individual(){
+
+}
