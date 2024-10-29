@@ -8,3 +8,4 @@ function createFullname(firstName, lastName){
         lastName: lastName
     };
 }
+module.exports = createName;
