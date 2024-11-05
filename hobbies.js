@@ -8,3 +8,17 @@ function createHobbies(hobbyOne, hobbyTwo, hobbyThree) {
     };
   }
   module.exports = createHobbies;
+
+
+
+  //lo stesso di:
+
+  //function createHobbies(hobbyOne, hobbyTwo, hobbyThree) {
+    //const hobbies = [
+        //hobbyOne,
+        //hobbyTwo,
+        //hobbyThree
+    //]
+    //return hobbies
+//}
+//module.exports = createHobbies;

@@ -13,3 +13,21 @@
 //All'interno della tua funzione, usa le tue due funzioni precedenti per costruire l'oggetto.
 
 
+
+
+
+const express = require("express");
+
+
+const app = express();
+
+
+const port = 3000;
+
+app.get("/", (req, res) => {
+  res.send("Benvenuto nella mia applicazione!");
+});
+
+app.listen(port, () => {
+  console.log(`Server in esecuzione su http://localhost:${port}`);
+});

@@ -9,3 +9,15 @@ function createFullName(firstName, lastName){
     };
 }
 module.exports = createFullName;
+
+//lostessodi:
+
+//function createFullName(firstName, lastName) {
+    //const FullName = {
+        //firstName: firstName,
+        //lastName: lastName
+    //}
+    //return FullName
+//}
+
+//module.exports = myName
