@@ -7,8 +7,18 @@
 const createFullName=require('./names')
 const createHobbies=require('./hobbies')
 
-function individual(){
+function Person(){
 
     const fullname = createFullName('Alice', 'Felipe');
     const hobbies = createHobbies('talking', 'lsleeping', 'driving');
 }
+
+
+  return {
+    firstName: nAme.firstName,
+    lastName: nAme.lastName,
+    hobbies: hobbies.hobbies
+  };
+}
+
+module.exports = createPerson;
